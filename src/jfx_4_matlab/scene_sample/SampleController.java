@@ -1,23 +1,20 @@
-package jfx_4_matlab;
+package jfx_4_matlab.scene_sample;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
 /**
  * Controller for the sample scene.
  */
-public class Controller {
+public class SampleController {
     // ui-controls injected by the javaFX-framework.
     @FXML
-    Label lbl;
-    @FXML
-    Button btn;
+    private Label lbl;
 
     /**
      * Handle click on btn.
      */
-    public void clickButton() {
+    public void clickBtn() {
         lbl.setText("heureka");
     }
 }

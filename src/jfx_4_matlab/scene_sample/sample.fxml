@@ -4,9 +4,9 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jfx_4_matlab.Controller">
+<VBox xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jfx_4_matlab.scene_sample.SampleController">
    <children>
       <Label fx:id="lbl" alignment="TOP_LEFT" maxHeight="1.7976931348623157E308" text="Hello world!!!" VBox.vgrow="ALWAYS" />
-      <Button fx:id="btn" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickButton" text="Button" />
+      <Button fx:id="btn" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickBtn" text="Button" />
    </children>
 </VBox>

@@ -9,5 +9,5 @@ javaaddpathstatic(Config.jfxrtPath);
 javaaddpathstatic(Config.jfx4matlabPath); 
 %--------------------------------------------------------------------------
 
-app = Application; 
-app.start(); 
+jfxApplication = javaObject('jfx_4_matlab.JFXApplication');
+jfxApplication.main([]); 
